@@ -21,6 +21,10 @@ public class Publisher {
     public Publisher() {
     }
 
+    public Publisher(String name) {
+        this.name = name;
+    }
+
     public Publisher(String name, String street, String city, String state, String zip) {
         this.name = name;
         this.street = street;
